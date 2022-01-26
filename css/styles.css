@@ -53,6 +53,7 @@
   }
   .page-header {
   background: var(--main-bcg-color);
+
   padding-bottom:24px;
   padding-top: 24px;
   /* flex-wrap: nowrap; */
@@ -185,10 +186,11 @@
 .envelope-icon {
   width: 16px;
   height: 12px;
+  align-items: center;
 }
 .smartphone-icon {
   width: 10px;
-  height: 16 px;
+  height: 16px;
 }
   .header-list {
   text-decoration:none;   
