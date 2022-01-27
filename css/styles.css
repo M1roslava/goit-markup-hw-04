@@ -182,15 +182,19 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  
   }
 .envelope-icon {
   width: 16px;
   height: 12px;
   align-items: center;
+  margin-right: 10px;
 }
 .smartphone-icon {
   width: 10px;
   height: 16px;
+  align-items: center;
+  margin-right: 10px;
 }
   .header-list {
   text-decoration:none;   
