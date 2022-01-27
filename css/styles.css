@@ -186,15 +186,17 @@
   }
 .envelope-icon {
   width: 16px;
-  height: 12px;
+  height: 16px;
   align-items: center;
   margin-right: 10px;
+  vertical-align:center;
 }
 .smartphone-icon {
   width: 10px;
   height: 16px;
   align-items: center;
   margin-right: 10px;
+  vertical-align:center;
 }
   .header-list {
   text-decoration:none;   
@@ -285,8 +287,39 @@ margin-right: auto;
     display:flex;
 
   }
+  .icon-container {
+
+    width: 270px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .advantage-icons {  
+    width:70px;
+    height:70px;
+    align-items: center;
+    color:#212121;
+    }
+
+  .icon-container:hover,
+  .icon-container:focus {
+border: #2196F3;
+border-radius: 4px;
+border-style: solid;
+border-width: 1px;
+  }
+.advantage-icons:hover,
+.advantage-icons:focus {
+color:#2196F3;
+  }
+
   .advantages-list {
-    display:flex;
+  display:flex;
   }
   .advantage-item {
     display:flex;
