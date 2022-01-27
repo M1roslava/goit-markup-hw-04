@@ -430,7 +430,51 @@ margin-right: 0px;
   text-align: center;
   letter-spacing: 0.03em;
   color:var(--main-text-color);
+  margin-bottom:16px;
 
+  }
+  .social-icons {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .icons-list {
+    display:inline-block;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .s-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border:none;
+  color:#AFB1B8;
+  justify-content: center;
+  align-items:center;
+  margin-right: 10px;
+  padding: 12px;
+  cursor: pointer;
+  }
+  .s-icon {
+    width:20px;
+    height:20px;
+    fill:currentColor;
+  }
+  .s-icon:hover,
+  .s-icon:focus {
+    fill:white;
+  }
+  .s-icon-link:hover,
+  .s-icon-link:focus {
+    width: 44px;
+    height: 44px;
+    background:#2196F3;
+    color:white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items:center;
+   cursor: pointer;
   }
   /* Футер */
   .foot {
@@ -487,6 +531,80 @@ margin-right: 0px;
   .contacts-footer:last-child {
     margin-bottom:0px;
   }
+
+
+  /* Последняя секция */
+  .client-container {
+  
+  text-align:center;
+  justify-content:center;
+  }
+.clients{
+  
+  padding-top: 94px;
+  padding-bottom:94px;
+  display:flex;
+  background:var(--secondary-bcg-color);
+  align-items: center;
+ 
+}
+  .client-title {
+
+  font-family: Roboto;
+  font-weight:700;
+  font-size: 36px;
+  color:var(--h-text-color);
+  line-height:1.16;
+  /* 42/36=1.16; */
+  text-align:center;
+  justify-content:center;
+  letter-spacing:0.03em;
+  margin-bottom:50px;
+  }
+
+  .clients-box {
+    display:flex;
+    
+    justify-content:center;
+    align-items:flex-start;
+  }
+  .logo-box {
+
+display: inline-block;
+flex-wrap: wrap;
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+justify-content:center;
+align-items: center;
+padding: 16px 32px;
+color: #AFB1B8;
+  }
+
+  .logo-box:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .link-client {
+    display:flex;
+    color: #AFB1B8;
+  
+  }
+
+  .link-client:hover,
+  .link-client:focus {
+    fill: var(--primary-accent-color);}
+    
+
+.client {
+  display:flex;
+  width: 106px;
+  height: 60px;
+  fill:currentColor;
+
+align-items: center;
+}
    /* Портфолио, сразу поcле хєдера */
   
    .section-projects {
