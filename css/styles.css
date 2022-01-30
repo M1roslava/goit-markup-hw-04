@@ -198,10 +198,7 @@
   vertical-align:center;
   fill: currentColor;
 }
-/* .envelope-icon:hover
-.envelope-icon:focus {
-  fill: var(--primary-accent-color);
-} */
+
 .smartphone-icon {
   width: 10px;
   height: 16px;
@@ -518,9 +515,13 @@ margin-right: 0px;
     flex-wrap: nowrap;
    
   }
+  .net-list:hover,
+  .net-list:focus {
+    cursor: pointer;
+  
+  }
   .net-link {
     display:flex;
-   
     width: 44px;
     height:44px;
     border-radius: 50%;
@@ -533,6 +534,8 @@ margin-right: 0px;
   .net-link:hover,
   .net-link:focus {
     background: var(--primary-accent-color);
+    cursor: pointer;
+
   }
 .footer-list {
   display:flex;
@@ -544,8 +547,11 @@ margin-right: 0px;
     fill:#FFFFFF;
     align-items:center;
     justify-content: center;
-        
   }
+
+  .icon-footer:hover,
+  .icon-footer:focus {
+    fill:#FFFFFF;}
 
   .join {
     font-weight:700;
