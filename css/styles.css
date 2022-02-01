@@ -506,7 +506,7 @@ margin-right: 0px;
   
   }
   .join-list{
-    display:inline-block;
+    display:flex;
         
     
   }
